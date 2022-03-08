@@ -2,8 +2,6 @@
 ##### **This project was created for study purposes only.**
 <br>
 
----
-
 ## Campaign Smart Contract
 ### **Variables**
 | Variable | Type | Description |

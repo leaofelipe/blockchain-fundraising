@@ -1,5 +1,5 @@
 # Fundraising project built on Ethereum Blockchain
-## This project was created just for study purposes.
+##### **This project was created for study purposes only.**
 <br>
 
 ---

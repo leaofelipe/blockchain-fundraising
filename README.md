@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![Solidity version](https://img.shields.io/static/v1?label=Solidity&message=0.4.17&color=informational)](https://docs.soliditylang.org/en/v0.4.17)
+
 # Fundraising project built on Ethereum Blockchain
 ##### **This project was created for study purposes only.**
 <br>

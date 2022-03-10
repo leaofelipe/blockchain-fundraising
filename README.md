@@ -11,7 +11,7 @@
 | --- | --- | :--- |
 | `manager` | address | address of the contract manager |
 | `minimumContribution` | uint | Minimum donation required |
-| `approvers` | address[] | List of every donator |
+| `approvers` | mapping | List of every donator |
 | `requests` | Request[] | List of requests that the manager has created. |
 
 ### **Functions**
@@ -22,3 +22,13 @@
 | `createRequest` | Called by the manager to create a new 'spending request' |
 | `approveRequest` | Called by each contributor to approve a spending request |
 | `finalizeRequest` | After a request has gotten enought approvals, the manager can call this to get money sent to the vendor |
+
+### **Request Struct**
+| Variable | Type | Description |
+| --- | --- | :--- |
+| `description` | string | Purpose of request |
+| `amount ` | uint | Ether to transfer | 
+| `recipient` | address | Who gets the money |
+| `complete` | bool | Whether the request is done |
+| `approvals` | mapping | Track who has voted |
+| `approvalCount` | uint | Track number of approvals |

@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-fundraising",
+  "version": "0.1.0",
+  "description": "Fundraising project built on Ethereum Blockchain",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Felipe Leão <felipe@felipeleao.com> (https://felipeleao.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.2.2",
+    "solc": "^0.4.17",
+    "web3": "^1.7.1"
+  }
+}

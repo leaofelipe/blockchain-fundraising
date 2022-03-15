@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "mocha 'test/**/*.js'",
+    "build-contracts": "node ./smart-contract/compile.js"
   },
   "author": "Felipe Leão <felipe@felipeleao.com> (https://felipeleao.com/)",
   "license": "MIT",

@@ -7,7 +7,8 @@
   "scripts": {
     "test": "mocha 'test/**/*.js'",
     "build-contracts": "node ./smart-contract/compile.js",
-    "deploy": "node ./smart-contract/deploy.js"
+    "deploy": "node ./smart-contract/deploy.js",
+    "dev": "next dev"
   },
   "author": "Felipe Leão <felipe@felipeleao.com> (https://felipeleao.com/)",
   "license": "MIT",
@@ -16,6 +17,9 @@
     "fs-extra": "^10.0.1",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.2.2",
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "solc": "^0.4.17",
     "web3": "^1.7.1"
   },

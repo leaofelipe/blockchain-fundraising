@@ -2,3 +2,7 @@ node_modules
 contracts/artifacts
 build
 .env
+.next
+logs
+*.log
+npm-debug.log*
